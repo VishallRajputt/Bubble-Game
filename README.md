@@ -30,32 +30,7 @@ bubble-game/
 - Keep popping until the timer runs out.
 - Final score is displayed at the end.
 
-⚡ Installation & Setup
-- Clone the repository:
-git clone https://github.com/your-username/bubble-game.git
-- Navigate to the project folder:
-cd bubble-game
-- Open index.html in your browser — no server setup required!
 
-🧩 Sample Code (Bubble Generation)
-function makeBubble() {
-  let bubbleContainer = document.querySelector("#bubble-container");
-  let bubbleHTML = "";
-  for (let i = 0; i < 20; i++) {
-    let randomNum = Math.floor(Math.random() * 10);
-    bubbleHTML += `<div class="bubble">${randomNum}</div>`;
-  }
-  bubbleContainer.innerHTML = bubbleHTML;
-}
-
-
-
-
-🔮 Future Improvements
-- Add difficulty levels
-- Sound effects when popping bubbles
-- Leaderboard for high scores
-- Touch support for mobile devices
 
 👨‍💻 Author
 Developed by Vishal Singh
